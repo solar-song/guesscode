@@ -1,4 +1,5 @@
-``` Clue format: (guess, digits_correct, positions_correct)
+```
+Clue format: (guess, digits_correct, positions_correct)
    "2"     -> exactly 2
    "2+"    -> at least 2
    "2-"    -> at most 2
