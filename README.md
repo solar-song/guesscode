@@ -8,7 +8,7 @@ Clue format: (guess, digits_correct, positions_correct)
 ```
 
 edit your puzzle conditions in the file like this: 
-note: the script only solve the "clues" variable, if you want to solve for example "clues2", then rename the original "clues" to something else and change the name of "clues2" to "clues"
+**note: the script only solve the "clues" variable, if you want to solve for example "clues2", then rename the original "clues" to something else and change the name of "clues2" to "clues"**
 ```
 clues1 = [
     ("2071", "2+", "1-3"),
