@@ -68,14 +68,6 @@ clues = [
 ]
 
 
-
-
-
-
-
-
-
-
 def matches(actual, spec):
     if spec == "?":
         return True
