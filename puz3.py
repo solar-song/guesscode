@@ -34,13 +34,45 @@ clues3 = [
 
 
 
-clues = [
+clues4 = [
     ("9546", "2", '0'),
     ("0498", "2", "0"),
     ("3109", "2", '0'),
     ("8063", "2", '0'),
     ("7329", "2", "0"),
 ]
+
+
+clues5 = [
+    ("2791", "2", '0'),
+    ("0164", "2", "0"),
+    ("4205", "2", '0'),
+    ("4208", "2", '0'),
+    ("3784", "2", "1"),
+]
+
+clues6 = [
+    ("2738", "2", '0'),
+    ("0495", "2", "0"),
+    ("7816", "2", '0'),
+    ("4280", "2", '1'),
+    ("3986", "1", "0"),
+]
+
+clues = [
+    ("5921", "1", '0'),
+    ("3695", "2", "0"),
+    ("1793", "1", '0'),
+    ("7236", "2", '1'),
+    ("2470", "1", "0"),
+]
+
+
+
+
+
+
+
 
 
 
@@ -88,5 +120,9 @@ def solve(allow_repeats=False):
 if __name__ == "__main__":
     distinct = solve(allow_repeats=False)
     repeats = solve(allow_repeats=True)
+    print("clues are:")
+    for clue in clues:
+        print(clue)
     print("Distinct digits only:", len(distinct), distinct)
     #print("Repeats allowed:     ", len(repeats), repeats)
+
